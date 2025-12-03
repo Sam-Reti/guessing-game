@@ -83,8 +83,6 @@ if(guessAsNumber === num){
 }
 */
 
-//document.addEventListener("DOMContentLoaded", function () {
-    // your JS here
 
 
 const input = document.getElementById("guess");
@@ -109,20 +107,20 @@ button.addEventListener('click', function () {
         timer.textContent = `Resetting in ${timeLeft}...`;
         
         const intervalId = setInterval(function () {
-          timeLeft = timeLeft - 1;  // or timeLeft--
+          timeLeft = timeLeft - 1;  
         
           if (timeLeft > 0) {
             timer.textContent = `Resetting in ${timeLeft}...`;
           } else {
-            clearInterval(intervalId); // stop the countdown
+            clearInterval(intervalId); 
             input.value = "";
             results.textContent = "";
             timer.textContent = "";
-            num = Math.floor(Math.random() * 10) + 1; // new round
+            num = Math.floor(Math.random() * 10) + 1; 
           }
         }, 1000);
         
     });
 
   console.log(num);
-//});
+
