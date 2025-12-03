@@ -100,7 +100,7 @@ button.addEventListener('click', function () {
     const guessAsNumber = parseInt(guess);
 
         if(guessAsNumber === num){
-            results.textContent = "It's a witch";
+            results.textContent = "It's a WITCH";
         } else {
             results.textContent = "You are not witch";
         } 
