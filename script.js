@@ -100,9 +100,9 @@ button.addEventListener('click', function () {
     const guessAsNumber = parseInt(guess);
 
         if(guessAsNumber === num){
-            results.textContent = "witch";
+            results.textContent = "It's a witch";
         } else {
-            results.textContent = "not witch";
+            results.textContent = "You are not witch";
         } 
    
         let timeLeft = 3;
