@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(rgb(89, 140, 251),rgb(162, 255, 250)) ;
+    height: 100vh;
+    width: 100vw;
+    font-family: fantasy;
+}
+
+
+.game{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 100;
+}
+
+
+label{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+input{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#check{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#check:hover{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    align-items: center;
+    background-color: rgb(124, 176, 159);
+    cursor: pointer;
+}
+
+#result{
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+
+
+#timer{
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 40px;
+   
+}
+
+input[type=number]::-webkit-inner-spin-button,  /* thanks chatgpt...removed the arrows for selecting a number*/
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.spacer{
+    height: 20px;
+    width: 100%;
+}
+
+.game{
+    margin: 100px ;
+}
