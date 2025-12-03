@@ -105,7 +105,7 @@ button.addEventListener('click', function () {
             results.textContent = "not witch";
         } 
    
-        let timeLeft = 5;
+        let timeLeft = 3;
         timer.textContent = `Resetting in ${timeLeft}...`;
         
         const intervalId = setInterval(function () {
