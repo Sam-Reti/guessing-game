@@ -116,11 +116,12 @@ button.addEventListener('click', function () {
             input.value = "";
             results.textContent = "";
             timer.textContent = "";
-            num = Math.floor(Math.random() * 10) + 1; 
+            newnum(); 
           }
         }, 1000);
         
     });
 
-
-
+    function newnum(){
+        num = Math.floor(Math.random() * 10) + 1;
+    }

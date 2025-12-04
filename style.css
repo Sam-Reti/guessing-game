@@ -97,5 +97,24 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .game{
-    margin: 100px ;
+    margin: 40px ;
 }
+
+.center{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 6rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
