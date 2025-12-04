@@ -58,6 +58,12 @@ input{
     cursor: pointer;
 }
 
+.center{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
 #result{
     height: 30px;
     width: 500px;
